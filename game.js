@@ -5,5 +5,11 @@ window.onload=function(){
 
     const img1 = document.getElementsByClassName("img1")[0];
     const img2 = document.getElementsByClassName("img2")[0];
+    
+    // get random function -- random integer between 1 and 6 --
+    function get_random(){
+        var random = Math.floor(Math.random() * 6) + 1;
+        return random;
+    }
 
 }
