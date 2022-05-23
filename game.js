@@ -18,4 +18,6 @@ window.onload=function(){
         img2.src = "images/dice"+number_2+".png";
     }
 
+    update_images();
+
 }
