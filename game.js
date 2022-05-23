@@ -12,4 +12,10 @@ window.onload=function(){
         return random;
     }
 
+    //update images function
+    function update_images(){
+        img1.src = "images/dice"+number_1+".png";
+        img2.src = "images/dice"+number_2+".png";
+    }
+
 }
